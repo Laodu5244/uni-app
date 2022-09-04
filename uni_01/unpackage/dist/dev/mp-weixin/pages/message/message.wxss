@@ -1,0 +1,29 @@
+
+view{
+	margin: 5px;
+}
+.box{
+	width:150px;
+	height:100px;
+	background: green;
+}
+.active{
+	background:red;
+}
+.box2{
+	width:150px;
+	height:50px;
+	background:blue ;
+}
+.active2{
+	background:pink;
+}
+.box3{
+	width:150px;
+	height:100px;
+	background:#ccc;
+}
+.active3{
+	background:yellow;
+}
+

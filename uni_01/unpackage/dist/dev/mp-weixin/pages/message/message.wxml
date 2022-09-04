@@ -1,0 +1,1 @@
+<view><view class="box" hover-class="active"><view>hello uniapp</view><view class="box2" hover-class="active2" hover-stop-propagation="{{true}}">hello uniapp</view></view><view class="box3" hover-class="active3" hover-start-time="{{2000}}">hello uniapp</view><view class="box3" hover-class="active3" hover-stay-time="{{2000}}">hello uniapp</view></view>

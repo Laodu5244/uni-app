@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/message/message",
+    "pages/my/my",
+    "pages/detail/detail"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "微信小程序",
+    "navigationBarBackgroundColor": "#fa4",
+    "backgroundColor": "#FcF",
+    "enablePullDownRefresh": true,
+    "backgroundTextStyle": "light"
+  },
+  "tabBar": {
+    "color": "#66CD00",
+    "selectedColor": "#FF0000",
+    "backgroundColor": "#FFF5EE",
+    "borderStyle": "white",
+    "position": "top",
+    "list": [
+      {
+        "text": "首 页",
+        "pagePath": "pages/index/index",
+        "iconPath": "static/home.png",
+        "selectedIconPath": "static/home-select.png"
+      },
+      {
+        "text": "信 息",
+        "pagePath": "pages/message/message",
+        "iconPath": "static/list.png",
+        "selectedIconPath": "static/list-select.png"
+      },
+      {
+        "text": "我 的",
+        "pagePath": "pages/my/my",
+        "iconPath": "static/my.png",
+        "selectedIconPath": "static/my-select.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
