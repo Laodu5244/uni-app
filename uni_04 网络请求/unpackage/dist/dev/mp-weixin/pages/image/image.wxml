@@ -1,0 +1,1 @@
+<view><button type="warn" size="mini" data-event-opts="{{[['tap',[['choose',['$event']]]]]}}" bindtap="__e">上传图片</button><block wx:for="{{list}}" wx:for-item="item" wx:for-index="__i0__" wx:key="*this"><image src="{{item}}" data-event-opts="{{[['tap',[['prev',['$event']]]]]}}" bindtap="__e"></image></block></view>

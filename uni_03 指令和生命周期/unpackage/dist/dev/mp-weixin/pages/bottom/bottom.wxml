@@ -1,0 +1,1 @@
+<view class="bottom"><view class="box">1</view><view class="box">2</view><view class="box">3</view><view class="box">4</view><view class="box">5</view><block wx:if="{{show}}"><view class="text">已经触底了</view></block></view>

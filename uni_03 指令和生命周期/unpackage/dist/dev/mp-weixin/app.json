@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/message/message",
+    "pages/life/life",
+    "pages/bottom/bottom"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#fa4",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#66CD00",
+    "selectedColor": "#FF0000",
+    "backgroundColor": "#FFF5EE",
+    "borderStyle": "white",
+    "list": [
+      {
+        "text": "首 页",
+        "pagePath": "pages/index/index"
+      },
+      {
+        "text": "信 息",
+        "pagePath": "pages/message/message"
+      },
+      {
+        "text": "生命周期",
+        "pagePath": "pages/life/life"
+      },
+      {
+        "text": "上拉",
+        "pagePath": "pages/bottom/bottom"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

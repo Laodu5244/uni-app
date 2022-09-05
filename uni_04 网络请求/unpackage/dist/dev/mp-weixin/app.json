@@ -1,0 +1,32 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/image/image",
+    "pages/select/select"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "backgroundColor": "pink",
+    "list": [
+      {
+        "text": "首 页",
+        "pagePath": "pages/index/index"
+      },
+      {
+        "text": "图 片",
+        "pagePath": "pages/image/image"
+      },
+      {
+        "text": "条 件",
+        "pagePath": "pages/select/select"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

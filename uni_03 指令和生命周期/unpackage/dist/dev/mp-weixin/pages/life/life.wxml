@@ -1,0 +1,1 @@
+<view class="life"><view>{{title}}</view><block wx:for="{{list}}" wx:for-item="item" wx:for-index="__i0__" wx:key="*this"><view>{{''+item+''}}</view></block><button data-event-opts="{{[['tap',[['pull',['$event']]]]]}}" bindtap="__e">下拉刷新</button></view>

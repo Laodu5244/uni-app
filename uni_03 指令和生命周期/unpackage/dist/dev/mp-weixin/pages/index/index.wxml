@@ -1,0 +1,1 @@
+<view class="content"><view class="title">{{''+title+''}}</view><view>{{'你好'+'世界'}}</view><button type="primary" data-event-opts="{{[['tap',[['handler',['$event']]]]]}}" bindtap="__e">click</button><button type="primary" data-event-opts="{{[['tap',[['handler2',[20,'$event']]]]]}}" bindtap="__e">click2</button></view>
