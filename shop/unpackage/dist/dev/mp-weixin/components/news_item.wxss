@@ -1,0 +1,38 @@
+@charset "UTF-8";
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.news_item.data-v-285982d4 {
+  display: flex;
+  padding: 20rpx;
+  border-bottom: 1px solid #b50e03;
+}
+.news_item image.data-v-285982d4 {
+  min-width: 240rpx;
+  max-width: 240rpx;
+  height: 180rpx;
+  margin-right: 15rpx;
+}
+.news_item .right.data-v-285982d4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.news_item .right .tit.data-v-285982d4 {
+  font-size: 36rpx;
+}
+.news_item .right .info.data-v-285982d4 {
+  font-size: 24rpx;
+  color: #333;
+}
+

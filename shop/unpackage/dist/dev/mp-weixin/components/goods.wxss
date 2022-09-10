@@ -1,0 +1,49 @@
+@charset "UTF-8";
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.good_list {
+  padding: 0 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.good_list .good_item {
+  background-color: #fff;
+  width: 345rpx;
+  margin-bottom: 10px;
+  padding: 15rpx;
+  box-sizing: border-box;
+}
+.good_list .good_item image {
+  width: 75%;
+  height: 150px;
+  margin: 5px auto;
+  display: block;
+}
+.good_list .good_item .price {
+  color: #b50e03;
+  font-size: 36rpx;
+}
+.good_list .good_item .price text:nth-child(2) {
+  color: #aaa;
+  font-size: 28rpx;
+  margin-left: 12rpx;
+  text-decoration: line-through;
+}
+.good_list .good_item .name {
+  font-size: 28rpx;
+  line-height: 50rpx;
+  padding: 0 10rpx;
+}
+

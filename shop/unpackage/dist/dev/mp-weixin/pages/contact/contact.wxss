@@ -1,0 +1,41 @@
+@charset "UTF-8";
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.contact .img {
+  width: 750rpx;
+  height: 320rpx;
+}
+.contact .info {
+  padding: 10rpx 20rpx;
+  font-size: 35rpx;
+  line-height: 80rpx;
+  border-bottom: 1px solid #eee;
+}
+.contact .info ._span {
+  color: #007aff;
+}
+.contact map {
+  width: 750rpx;
+  height: 650rpx;
+}
+.contact navigator {
+  margin-top: 20px;
+  text-align: center;
+  background-color: green;
+  color: #fff;
+  height: 40px;
+  line-height: 40px;
+  letter-spacing: 2px;
+}
+
